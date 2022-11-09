@@ -1,0 +1,28 @@
+/*---Blue Color ---*/
+.google{
+    margin: 150px auto 0;
+    width: 75px;
+    height: 50px;
+    border-top: 50px solid #4285f4;
+    border-right: 50px solid #4285f4;
+    border-bottom: 50px solid #4285f4;
+    border-radius: 0 0 250px 0;
+    position: relative;
+    box-sizing: content-box;
+}
+/*--- Red Green Yellow Color*/
+.google:before{
+    content: "";
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-top: 50px solid #ea4335;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #34a853;
+    border-left: 50px solid #fbbc05;
+    border-radius: 200px;
+    box-sizing: border-box;
+    position: absolute;
+    top: -150px;
+    right: -50px;
+}
